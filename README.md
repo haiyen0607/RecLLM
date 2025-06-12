@@ -1,12 +1,12 @@
 # RecLLM
 Leveraging Large Language Models in Conversational Recommender Systems
-# 🧠 RecLLM - LLM-based Conversational Recommender System
+# RecLLM - LLM-based Conversational Recommender System
 
 RecLLM is a lightweight prototype that simulates a **Conversational Recommender System (CRS)** powered by LLMs. It models how user interaction and recommendation logic can be unified into a language-driven flow.
 
 ---
 
-## 🔁 System Overview
+## System Overview
 
 The architecture is inspired by modular LLM-enhanced CRS designs, as shown below:
 
@@ -21,7 +21,7 @@ The architecture is inspired by modular LLM-enhanced CRS designs, as shown below
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 RecLLM/
@@ -35,7 +35,7 @@ RecLLM/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
 ```bash
@@ -66,17 +66,16 @@ python check.py
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
 - Modular dialogue and recommendation logic
 - Extensible to use OpenAI, HuggingFace, or local LLMs
-- Conversation history tracking (`history.txt`)
 - Easy to simulate ranking, explanations, and profiles
 - Synthetic user simulation support (for research)
 
 ---
 
-## 🛠️ To-Do / Extensibility
+## To-Do / Extensibility
 
 - Integrate real-time LLM responses via OpenAI API
 - Implement Ranker using semantic similarity
